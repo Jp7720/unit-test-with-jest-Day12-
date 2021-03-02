@@ -11,10 +11,6 @@ const sum = (a,b) => {
 // (similar a la palabra clave `export` cuando se usa webpack)
 //module.exports = { sum };
 
-
-
-// we declare the function with the exact name "fromEuroToDollar"
-
 // we declare the function with the exact name "fromEuroToDollar"
 // one euro is:
 
@@ -31,7 +27,6 @@ const fromEuroToDollar = function(valueInEuro){
     return valueInDollar;
    }
 
- // we include fromEuroToDollar here as well because it needs to be exported
 
 
 
@@ -45,7 +40,6 @@ const fromDollarToYen = function(valueInDollar){
    
 }
 
- // we include fromEuroToDollar here as well because it needs to be exported
 
 
 
@@ -58,7 +52,6 @@ const fromYenToPound = function(valueInYen){
    
 }
 
- // we include fromEuroToDollar here as well because it needs to be exported
 
 
 
